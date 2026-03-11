@@ -772,6 +772,7 @@ dependencies = [
     { name = "pandas" },
     { name = "scikit-learn" },
     { name = "seaborn" },
+    { name = "shap" },
     { name = "tensorflow" },
 ]
 
@@ -785,6 +786,7 @@ requires-dist = [
     { name = "pandas", specifier = ">=3.0.0" },
     { name = "scikit-learn", specifier = ">=1.8.0" },
     { name = "seaborn", specifier = ">=0.13.2" },
+    { name = "shap", specifier = ">=0.46.0" },
     { name = "tensorflow", specifier = ">=2.20.0" },
 ]
 
